@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE463F101C32D20800B10F25 /* OpenDiaryAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE463F0F1C32D20800B10F25 /* OpenDiaryAnimation.swift */; };
 		BE82DE711C2E899800C0790D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82DE701C2E899800C0790D /* AppDelegate.swift */; };
 		BE82DE731C2E899800C0790D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82DE721C2E899800C0790D /* ViewController.swift */; };
 		BE82DE761C2E899800C0790D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE82DE741C2E899800C0790D /* Main.storyboard */; };
 		BE82DE781C2E899800C0790D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE82DE771C2E899800C0790D /* Assets.xcassets */; };
 		BE82DE7B1C2E899800C0790D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE82DE791C2E899800C0790D /* LaunchScreen.storyboard */; };
+		BE82DE8A1C2E8CFE00C0790D /* TimeNoteHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82DE881C2E8CFE00C0790D /* TimeNoteHeaderViewController.swift */; };
+		BE82DE8B1C2E8CFE00C0790D /* TimeNoteHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE82DE891C2E8CFE00C0790D /* TimeNoteHeaderViewController.xib */; };
+		BE82DE901C2E921D00C0790D /* TimeNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82DE8E1C2E921D00C0790D /* TimeNoteCell.swift */; };
+		BE87C6C61C325AC400AAA0B8 /* note.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE87C6C41C325AC400AAA0B8 /* note.xcdatamodeld */; };
+		BE87C6C91C325B7A00AAA0B8 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87C6C71C325B7A00AAA0B8 /* Note+CoreDataProperties.swift */; };
+		BE87C6CA1C325B7A00AAA0B8 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87C6C81C325B7A00AAA0B8 /* Note.swift */; };
+		BE87C6CC1C325F8100AAA0B8 /* TimeConponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87C6CB1C325F8100AAA0B8 /* TimeConponent.swift */; };
+		BEC7AF4F1C2EC6D00061DD87 /* GoogleIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7AF4D1C2EC6D00061DD87 /* GoogleIcon.swift */; };
+		BEC7AF531C2EC6FB0061DD87 /* GMColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7AF511C2EC6FB0061DD87 /* GMColor.swift */; };
+		BEC7AF541C2EC6FB0061DD87 /* GMPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7AF521C2EC6FB0061DD87 /* GMPalette.swift */; };
+		BEC7AF561C2EC94E0061DD87 /* googleicon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEC7AF551C2EC94E0061DD87 /* googleicon.ttf */; };
+		BEC7AF581C2ECCFB0061DD87 /* ViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7AF571C2ECCFB0061DD87 /* ViewComponent.swift */; };
+		BEC7AF5B1C2ECF200061DD87 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7AF5A1C2ECF200061DD87 /* NoteViewController.swift */; };
+		BEC7AF5F1C2ED2BC0061DD87 /* SelectColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7AF5E1C2ED2BC0061DD87 /* SelectColorViewController.swift */; };
+		BEC7AF611C2ED3310061DD87 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7AF601C2ED3310061DD87 /* Colors.swift */; };
+		BEC7AF631C2ED3510061DD87 /* ColorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7AF621C2ED3510061DD87 /* ColorViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE463F0F1C32D20800B10F25 /* OpenDiaryAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenDiaryAnimation.swift; sourceTree = "<group>"; };
 		BE82DE6D1C2E899800C0790D /* NoteTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE82DE701C2E899800C0790D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE82DE721C2E899800C0790D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,22 @@
 		BE82DE771C2E899800C0790D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE82DE7A1C2E899800C0790D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE82DE7C1C2E899800C0790D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE82DE881C2E8CFE00C0790D /* TimeNoteHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeNoteHeaderViewController.swift; sourceTree = "<group>"; };
+		BE82DE891C2E8CFE00C0790D /* TimeNoteHeaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeNoteHeaderViewController.xib; sourceTree = "<group>"; };
+		BE82DE8E1C2E921D00C0790D /* TimeNoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeNoteCell.swift; sourceTree = "<group>"; };
+		BE87C6C51C325AC400AAA0B8 /* note.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = note.xcdatamodel; sourceTree = "<group>"; };
+		BE87C6C71C325B7A00AAA0B8 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "../Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BE87C6C81C325B7A00AAA0B8 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = ../Note.swift; sourceTree = "<group>"; };
+		BE87C6CB1C325F8100AAA0B8 /* TimeConponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeConponent.swift; sourceTree = "<group>"; };
+		BEC7AF4D1C2EC6D00061DD87 /* GoogleIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleIcon.swift; sourceTree = "<group>"; };
+		BEC7AF511C2EC6FB0061DD87 /* GMColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMColor.swift; sourceTree = "<group>"; };
+		BEC7AF521C2EC6FB0061DD87 /* GMPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMPalette.swift; sourceTree = "<group>"; };
+		BEC7AF551C2EC94E0061DD87 /* googleicon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = googleicon.ttf; sourceTree = "<group>"; };
+		BEC7AF571C2ECCFB0061DD87 /* ViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewComponent.swift; sourceTree = "<group>"; };
+		BEC7AF5A1C2ECF200061DD87 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		BEC7AF5E1C2ED2BC0061DD87 /* SelectColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectColorViewController.swift; sourceTree = "<group>"; };
+		BEC7AF601C2ED3310061DD87 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		BEC7AF621C2ED3510061DD87 /* ColorViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,10 @@
 		BE82DE6F1C2E899800C0790D /* NoteTime */ = {
 			isa = PBXGroup;
 			children = (
+				BE87C6C31C325A8D00AAA0B8 /* model */,
+				BEC7AF591C2ECEEF0061DD87 /* note */,
+				BE82DE8D1C2E916E00C0790D /* timeNote */,
+				BE82DE8C1C2E905700C0790D /* component */,
 				BE82DE701C2E899800C0790D /* AppDelegate.swift */,
 				BE82DE721C2E899800C0790D /* ViewController.swift */,
 				BE82DE741C2E899800C0790D /* Main.storyboard */,
@@ -62,6 +100,51 @@
 				BE82DE7C1C2E899800C0790D /* Info.plist */,
 			);
 			path = NoteTime;
+			sourceTree = "<group>";
+		};
+		BE82DE8C1C2E905700C0790D /* component */ = {
+			isa = PBXGroup;
+			children = (
+				BE463F0F1C32D20800B10F25 /* OpenDiaryAnimation.swift */,
+				BE87C6CB1C325F8100AAA0B8 /* TimeConponent.swift */,
+				BEC7AF601C2ED3310061DD87 /* Colors.swift */,
+				BEC7AF571C2ECCFB0061DD87 /* ViewComponent.swift */,
+				BEC7AF551C2EC94E0061DD87 /* googleicon.ttf */,
+				BEC7AF511C2EC6FB0061DD87 /* GMColor.swift */,
+				BEC7AF521C2EC6FB0061DD87 /* GMPalette.swift */,
+				BEC7AF4D1C2EC6D00061DD87 /* GoogleIcon.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		BE82DE8D1C2E916E00C0790D /* timeNote */ = {
+			isa = PBXGroup;
+			children = (
+				BE82DE881C2E8CFE00C0790D /* TimeNoteHeaderViewController.swift */,
+				BE82DE891C2E8CFE00C0790D /* TimeNoteHeaderViewController.xib */,
+				BE82DE8E1C2E921D00C0790D /* TimeNoteCell.swift */,
+			);
+			name = timeNote;
+			sourceTree = "<group>";
+		};
+		BE87C6C31C325A8D00AAA0B8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BE87C6C71C325B7A00AAA0B8 /* Note+CoreDataProperties.swift */,
+				BE87C6C81C325B7A00AAA0B8 /* Note.swift */,
+				BE87C6C41C325AC400AAA0B8 /* note.xcdatamodeld */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		BEC7AF591C2ECEEF0061DD87 /* note */ = {
+			isa = PBXGroup;
+			children = (
+				BEC7AF621C2ED3510061DD87 /* ColorViewCell.swift */,
+				BEC7AF5E1C2ED2BC0061DD87 /* SelectColorViewController.swift */,
+				BEC7AF5A1C2ECF200061DD87 /* NoteViewController.swift */,
+			);
+			path = note;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE82DE8B1C2E8CFE00C0790D /* TimeNoteHeaderViewController.xib in Resources */,
+				BEC7AF561C2EC94E0061DD87 /* googleicon.ttf in Resources */,
 				BE82DE7B1C2E899800C0790D /* LaunchScreen.storyboard in Resources */,
 				BE82DE781C2E899800C0790D /* Assets.xcassets in Resources */,
 				BE82DE761C2E899800C0790D /* Main.storyboard in Resources */,
@@ -136,8 +221,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC7AF541C2EC6FB0061DD87 /* GMPalette.swift in Sources */,
+				BE87C6CC1C325F8100AAA0B8 /* TimeConponent.swift in Sources */,
+				BE87C6C91C325B7A00AAA0B8 /* Note+CoreDataProperties.swift in Sources */,
+				BEC7AF611C2ED3310061DD87 /* Colors.swift in Sources */,
+				BE87C6C61C325AC400AAA0B8 /* note.xcdatamodeld in Sources */,
 				BE82DE731C2E899800C0790D /* ViewController.swift in Sources */,
+				BE87C6CA1C325B7A00AAA0B8 /* Note.swift in Sources */,
 				BE82DE711C2E899800C0790D /* AppDelegate.swift in Sources */,
+				BE82DE901C2E921D00C0790D /* TimeNoteCell.swift in Sources */,
+				BEC7AF5F1C2ED2BC0061DD87 /* SelectColorViewController.swift in Sources */,
+				BEC7AF5B1C2ECF200061DD87 /* NoteViewController.swift in Sources */,
+				BEC7AF581C2ECCFB0061DD87 /* ViewComponent.swift in Sources */,
+				BEC7AF631C2ED3510061DD87 /* ColorViewCell.swift in Sources */,
+				BEC7AF4F1C2EC6D00061DD87 /* GoogleIcon.swift in Sources */,
+				BE463F101C32D20800B10F25 /* OpenDiaryAnimation.swift in Sources */,
+				BE82DE8A1C2E8CFE00C0790D /* TimeNoteHeaderViewController.swift in Sources */,
+				BEC7AF531C2EC6FB0061DD87 /* GMColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +348,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NoteTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttang.NoteTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -259,10 +362,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NoteTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttang.NoteTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -285,8 +391,22 @@
 				BE82DE811C2E899800C0790D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE87C6C41C325AC400AAA0B8 /* note.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE87C6C51C325AC400AAA0B8 /* note.xcdatamodel */,
+			);
+			currentVersion = BE87C6C51C325AC400AAA0B8 /* note.xcdatamodel */;
+			path = note.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BE82DE651C2E899800C0790D /* Project object */;
 }
