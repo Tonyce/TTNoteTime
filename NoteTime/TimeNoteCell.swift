@@ -16,6 +16,10 @@ class TimeNoteCell: UITableViewCell {
         }
     }
 
+    let dateFormatter = NSDateFormatter()
+    
+    
+    @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var circleLabel: UILabel!
     @IBOutlet weak var mainTextView: UITextView!
@@ -36,9 +40,12 @@ class TimeNoteCell: UITableViewCell {
         let dates = note?.time
         
         if let dates = dates {
-//            let date = dates.getTimeStrWithFormate("yyyy-MM-dd")
-            let time = dates.getTimeStrWithFormate("HH:mm:ss")
-            timeLabel.text = time
+            let date = dates.getTimeStrWithFormate("MM-dd")
+//            let time = dates.getTimeStrWithFormate("HH:mm:ss")
+
+            dateLabel.text = date
+            dateFormatter.timeStyle = .ShortStyle
+            timeLabel.text = dateFormatter.stringFromDate(dates)
         }
 
         

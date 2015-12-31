@@ -23,11 +23,11 @@
                         <constraint firstAttribute="height" constant="21" id="KIt-aF-BCx"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="fBi-A7-VW0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="Wpr-AU-X2s"/>
                 <constraint firstItem="fBi-A7-VW0" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="my9-Oe-SWt"/>

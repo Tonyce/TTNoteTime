@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE386CC31C34F1F4004A3953 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE386CC21C34F1F4004A3953 /* ImageExtension.swift */; };
 		BE463F101C32D20800B10F25 /* OpenDiaryAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE463F0F1C32D20800B10F25 /* OpenDiaryAnimation.swift */; };
 		BE82DE711C2E899800C0790D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82DE701C2E899800C0790D /* AppDelegate.swift */; };
 		BE82DE731C2E899800C0790D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82DE721C2E899800C0790D /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE386CC21C34F1F4004A3953 /* ImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 		BE463F0F1C32D20800B10F25 /* OpenDiaryAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenDiaryAnimation.swift; sourceTree = "<group>"; };
 		BE82DE6D1C2E899800C0790D /* NoteTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE82DE701C2E899800C0790D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		BE82DE8C1C2E905700C0790D /* component */ = {
 			isa = PBXGroup;
 			children = (
+				BE386CC21C34F1F4004A3953 /* ImageExtension.swift */,
 				BE463F0F1C32D20800B10F25 /* OpenDiaryAnimation.swift */,
 				BE87C6CB1C325F8100AAA0B8 /* TimeConponent.swift */,
 				BEC7AF601C2ED3310061DD87 /* Colors.swift */,
@@ -228,6 +231,7 @@
 				BE87C6C61C325AC400AAA0B8 /* note.xcdatamodeld in Sources */,
 				BE82DE731C2E899800C0790D /* ViewController.swift in Sources */,
 				BE87C6CA1C325B7A00AAA0B8 /* Note.swift in Sources */,
+				BE386CC31C34F1F4004A3953 /* ImageExtension.swift in Sources */,
 				BE82DE711C2E899800C0790D /* AppDelegate.swift in Sources */,
 				BE82DE901C2E921D00C0790D /* TimeNoteCell.swift in Sources */,
 				BEC7AF5F1C2ED2BC0061DD87 /* SelectColorViewController.swift in Sources */,

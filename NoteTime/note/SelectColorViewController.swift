@@ -37,6 +37,7 @@ class SelectColorViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 }
 
 extension SelectColorViewController: UITableViewDataSource, UITableViewDelegate {
@@ -72,6 +73,12 @@ extension SelectColorViewController: UITableViewDataSource, UITableViewDelegate 
 //            delegate.colorPicker(self, didPickColorEntry: colorEntry)
             delegate.colorPicker(self, didPickColorEntry: colorEntry, colorIndex: indexPath.row)
         }
+    }
+}
+
+extension SelectColorViewController: UIToolbarDelegate {
+    func positionForBar(bar: UIBarPositioning) -> UIBarPosition {
+        return UIBarPosition.TopAttached
     }
 }
 

@@ -27,7 +27,7 @@ class OpenAnimation: NSObject, UIViewControllerTransitioningDelegate {
 
 class OpenTransition: NSObject, UIViewControllerAnimatedTransitioning {
     
-    let duration    = 0.3
+    let duration    = 0.25
     var presenting  = true
     var originFrame = CGRect.zero
     

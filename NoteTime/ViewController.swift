@@ -52,6 +52,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var addButton: UIButton!
     @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -120,9 +121,6 @@ class ViewController: UIViewController {
                 noteView.delegate = self
                 
                 segue.destinationViewController.transitioningDelegate = openTransition
-                //                diaryView.diaryEntry = diaryEntry as Diary
-                //                diaryView.transitioningDelegate = openDiaryTransition
-                
             }
         }
     }
@@ -201,10 +199,7 @@ extension ViewController {
             if selectedNote != nil {
                 selectedNote?.text = text
                 selectedNote?.colorIndex = noteViewController.colorIndex
-                
-//                let cell = self.tableView.cellForRowAtIndexPath(selectedIndexPath!) as! TimeNoteCell
-//                cell.note = selectedNote
-//                
+
                 self.tableView.reloadRowsAtIndexPaths([selectedIndexPath!], withRowAnimation: UITableViewRowAnimation.Fade)
                 
             }else {
