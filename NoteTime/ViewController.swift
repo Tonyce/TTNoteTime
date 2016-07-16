@@ -147,6 +147,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         let cellData = notes[indexPath.row]
         cell.note = cellData
         
+        cell.indexPath = indexPath
+        cell.viewController = self
+        
         let cellBackView = UIView(frame: cell.frame)
         cell.selectedBackgroundView = cellBackView
         cell.selectedBackgroundView?.backgroundColor = UIColor.clearColor()

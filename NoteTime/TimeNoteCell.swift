@@ -17,8 +17,10 @@ class TimeNoteCell: UITableViewCell {
     }
 
     let dateFormatter = NSDateFormatter()
+    var viewController: ViewController?
+    var indexPath: NSIndexPath?
     
-    
+    @IBOutlet weak var textViewHeight: NSLayoutConstraint!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var circleLabel: UILabel!
@@ -63,5 +65,25 @@ class TimeNoteCell: UITableViewCell {
         mainTextView.text = note!.text
     }
 
+    
+    
+    @IBAction func shouqiAction(sender: AnyObject) {
+        
+//        textViewHeight.relation = NSLayoutRelation.Equal
+//        print(textViewHeight)
+                print(self.frame.height)
+        
+        textViewHeight = NSLayoutConstraint(item: mainTextView, attribute: NSLayoutAttribute.Height, relatedBy: NSLayoutRelation.Equal,
+            toItem: mainTextView, attribute: NSLayoutAttribute.Height, multiplier: 0, constant: 45)
+        
+        print(textViewHeight)
+        
+        self.layoutIfNeeded()
+        print(self.frame.height)
+        
+        viewController?.tableView.reloadRowsAtIndexPaths([indexPath!], withRowAnimation: UITableViewRowAnimation.None)
+//        viewController.reloadRowsAtIndexPaths([indexPath!], withRowAnimation: UITableViewRowAnimation.Fade)
+    }
+    
 }
 
